@@ -85,6 +85,6 @@ test:
 #
 production:
   <<: *default
-  database: joshco_basic_production
-  username: joshco_basic
+  database: joshco-basic_production
+  username: joshco-basic
   password: <%= ENV['JOSHCO_BASIC_DATABASE_PASSWORD'] %>
